@@ -22,6 +22,8 @@ import { GitHubContributionGraph, GitHubContributionFallback } from "@/component
 import { getGitHubContributions } from "@/lib/github";
 import { Suspense } from "react";
 import { siteConfig } from "@/lib/config";
+import GallerySection from "@/components/gallery-section";
+
 
 
 
@@ -203,6 +205,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <GallerySection />
+
 
       <CtaSection />
       <Footer />

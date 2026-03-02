@@ -27,7 +27,7 @@ export default function Footer() {
                 </div>
 
                 {/* Right */}
-                <GitHubStars repo={`${siteConfig.githubUsername}/portfolio2.0`} stargazersCount={100} />
+                <GitHubStars repo={`${siteConfig.githubUsername}/EthanRodrigues-Portfolio`} stargazersCount={0} />
             </div>
         </footer>
     )

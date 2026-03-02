@@ -22,13 +22,13 @@ export const siteConfig = {
     avatar: "/ethan-rodrigues-avatar.jpg",
     description: "Experience in building and deploying scalable Full Stack applications with AI-driven features, and managing CI/CD pipelines for production-ready SaaS solutions.",
     location: "Mumbai, India",
-    email: "ethanrodrigues25&gmail.com", // @TODO: Update with actual email
-    resumeUrl: "#", // @TODO: Update with actual resume URL
-    meetingUrl: "https://calendly.com/yourname", // @TODO: Update with actual meeting URL
+    email: "ethanrodrigues25@gmail.com",
+    resumeUrl: "#",
+    meetingUrl: "https://calendly.com/ethanrodrigues",
     githubUsername: "EthanRodrigues001",
     githubUrl: "https://github.com/EthanRodrigues001",
-    twitterUrl: "https://twitter.com/iamncdai",
-    linkedinUrl: "https://linkedin.com/in/yourname",
+    twitterUrl: "https://twitter.com/EthanRo97737635",
+    linkedinUrl: "https://linkedin.com/in/ethan-rodrigues25",
     stats: [
         { data: 'Full Stack & UI/UX Designer', value: '(Figma)' },
         { data: '3+ years of experience' },
@@ -133,7 +133,14 @@ export const siteConfig = {
             badges: ["Agency", "Web Development", "Marketing"],
         },
     ],
+    gallery: [
+        "/projects/blingo.png",
+        "/projects/letterstack.png",
+        "/projects/lyxui.png",
+        "/projects/wisplabs.png",
+    ],
 }
+
 
 // Add UTM_PARAMS for consistency
 export const UTM_PARAMS = {
