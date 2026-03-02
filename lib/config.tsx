@@ -92,7 +92,7 @@ export const siteConfig = {
         {
             position: "Senior Frontend Developer",
             company: "Lyx UI",
-            startDate: "2024",
+            startDate: "Jan 2024",
             endDate: "Present",
             badges: ["React", "Next.js", "TypeScript", "Tailwind", "UI Engineering"],
             description: [
