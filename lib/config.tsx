@@ -22,7 +22,7 @@ export const siteConfig = {
     avatar: "/ethan-rodrigues-avatar.jpg",
     description: "Experience in building and deploying scalable Full Stack applications with AI-driven features, and managing CI/CD pipelines for production-ready SaaS solutions.",
     location: "Mumbai, India",
-    email: "ethan@example.com", // @TODO: Update with actual email
+    email: "ethanrodrigues25&gmail.com", // @TODO: Update with actual email
     resumeUrl: "#", // @TODO: Update with actual resume URL
     meetingUrl: "https://calendly.com/yourname", // @TODO: Update with actual meeting URL
     githubUsername: "EthanRodrigues001",
