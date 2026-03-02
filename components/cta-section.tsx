@@ -1,5 +1,7 @@
 import { Calendar } from "lucide-react"
 import { Button } from "./ui/button"
+import Link from "next/link"
+import { siteConfig } from "@/lib/config"
 
 export default function CtaSection() {
     return (
@@ -11,9 +13,11 @@ export default function CtaSection() {
                 </h2>
 
                 <div className="mt-5 flex justify-center">
-                    <Button className="gap-2" variant="outline" size="sm">
-                        <Calendar className="h-4 w-4" />
-                        Schedule a meeting
+                    <Button className="gap-2" variant="outline" asChild size="sm">
+                        <Link href={siteConfig.meetingUrl} target="_blank">
+                            <Calendar className="h-4 w-4" />
+                            Schedule a meeting
+                        </Link>
                     </Button>
                 </div>
 

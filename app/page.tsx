@@ -152,11 +152,6 @@ export default function Home() {
           </Link>
         </Button>
 
-        <Button variant="outline" asChild>
-          <Link href={siteConfig.meetingUrl} target="_blank">
-            Schedule a Meeting
-          </Link>
-        </Button>
 
       </div>
       <div className="relative z-10 p-2 border-t border-muted"></div>
