@@ -1,5 +1,4 @@
-"use client";
-import React, { useEffect, useState } from "react";
+import { Suspense } from "react";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Dithering } from "@paper-design/shaders-react";
@@ -17,29 +16,15 @@ import { StripedPattern } from "@/components/magicui/striped-pattern";
 import Link from "next/link";
 import CtaSection from "@/components/cta-section";
 import Footer from "@/components/footer";
-import LoadingScreen from "@/components/LoadingScreen";
 import { GitHubContributionGraph, GitHubContributionFallback } from "@/components/github-graph";
 import { getGitHubContributions } from "@/lib/github";
-import { Suspense } from "react";
 import { siteConfig } from "@/lib/config";
 import GallerySection from "@/components/gallery-section";
 
-
-
-
-
-
-
 export default function Home() {
-  const [loading, setLoading] = useState(true);
+  // Fetched on the server (no CORS) and streamed into the client graph via Suspense.
   const contributionsPromise = getGitHubContributions(siteConfig.githubUsername);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) return <LoadingScreen />;
   return (
 
     <>

@@ -9,7 +9,7 @@ import { ButtonGroup } from "./ui/button-group"
 interface ProjectItemProps {
     name: string
     description: string
-    banner: string
+    banner?: string
     badges: string[]
     github?: string
     live?: string
@@ -86,13 +86,15 @@ export function ProjectItem({
                     }`}
             >
                 {/* Banner */}
-                <div className="mb-4 overflow-hidden rounded-xl border border-border">
-                    <img
-                        src={banner}
-                        alt={name}
-                        className="h-[280px] w-full object-cover"
-                    />
-                </div>
+                {banner && (
+                    <div className="mb-4 overflow-hidden rounded-xl border border-border">
+                        <img
+                            src={banner}
+                            alt={name}
+                            className="h-[280px] w-full object-cover"
+                        />
+                    </div>
+                )}
 
 
 
