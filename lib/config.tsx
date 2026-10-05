@@ -89,7 +89,7 @@ export const siteConfig = {
             position: "Research Intern",
             company: "IISER Mohali",
             startDate: "Jul 2025",
-            endDate: "2026",
+            endDate: "Jun 2026",
             badges: ["Machine Learning", "Data Analysis", "Python", "Research", "AI"],
             description: [
                 "Researched predictive modeling and data-driven analysis",
