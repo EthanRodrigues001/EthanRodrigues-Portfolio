@@ -17,6 +17,9 @@ import {
     SiGithubactions,
     SiFastapi,
     SiScikitlearn,
+    SiClaude,
+    SiOpenai,
+    SiFigma,
 } from "react-icons/si";
 import { FaCode } from "react-icons/fa";
 
@@ -24,9 +27,9 @@ import { Github, Linkedin, Twitter } from "lucide-react"
 
 export const siteConfig = {
     name: "Ethan Rodrigues",
-    role: "Full-Stack & AI Engineer",
+    role: "AI Engineer · Full-Stack Developer",
     avatar: "/pfp2.png",
-    description: "I build AI-native products end to end: LLM agents that call tools and edit real data, the full-stack apps they live in, and the CI/CD pipelines that ship them.",
+    description: "Most of what I build has an LLM in it: agents that call tools and change real data, inside full-stack TypeScript apps. I build with Claude Code and Codex every day.",
     location: "Mumbai, India",
     email: "ethanrodrigues25@gmail.com",
     resumeUrl: "https://drive.google.com/file/d/19HoRt6oSnolK63hS8owKVWgoPOR7o6bO/view?usp=sharing",
@@ -37,7 +40,8 @@ export const siteConfig = {
     linkedinUrl: "https://linkedin.com/in/ethan-rodrigues25",
     stats: [
         { data: 'AI Engineer building', value: 'tool-calling agents' },
-        { data: 'Full Stack & UI/UX Designer', value: '(Figma)' },
+        { data: 'Builds with', value: 'Claude Code & Codex' },
+        { data: 'UI/UX design in Figma', value: '(hobby)' },
         { data: '3+ years of experience' },
         { data: 'he/him' },
         { value: '@Wisplabs', data: 'Founder' },
@@ -71,6 +75,8 @@ export const siteConfig = {
         { name: "Vercel AI SDK", icon: SiVercel },
         { name: "Gemini", icon: SiGooglegemini },
         { name: "AI Agents & Tool Calling", icon: FaCode },
+        { name: "Claude Code", icon: SiClaude },
+        { name: "Codex", icon: SiOpenai },
         { name: "Node.js", icon: SiNodedotjs },
         { name: "PostgreSQL", icon: SiPostgresql },
         { name: "Tailwind CSS", icon: SiTailwindcss },
@@ -83,6 +89,7 @@ export const siteConfig = {
         { name: "Docker", icon: SiDocker },
         { name: "Express", icon: SiExpress },
         { name: "Git", icon: SiGit },
+        { name: "Figma (hobby)", icon: SiFigma },
     ],
     experiences: [
         {
