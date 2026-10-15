@@ -21,7 +21,7 @@ import {
     SiOpenai,
     SiFigma,
 } from "react-icons/si";
-import { FaCode } from "react-icons/fa";
+import { FaAws, FaCode } from "react-icons/fa";
 
 import { Github, Linkedin, Twitter } from "lucide-react"
 
@@ -86,6 +86,7 @@ export const siteConfig = {
         { name: "Rust", icon: SiRust },
         { name: "Tauri", icon: SiTauri },
         { name: "GitHub Actions", icon: SiGithubactions },
+        { name: "AWS (SES, SNS)", icon: FaAws },
         { name: "Docker", icon: SiDocker },
         { name: "Express", icon: SiExpress },
         { name: "Git", icon: SiGit },
